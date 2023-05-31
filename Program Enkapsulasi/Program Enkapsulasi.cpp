@@ -16,10 +16,10 @@ public:
 int main() {
 	remoteLampu lampuRumah;
 
-	lamputRumah.setSaklarNo(0,"Lampu Teras Rumah");
-	lamputRumah.setSaklarNo(1,"Lampu Ruang Tamu");
-	lamputRumah.setSaklarNo(2,"Lampu Kamar Tidur");
-	lamputRumah.setSaklarNo(3,"Lampu Dapur");
+	lampuRumah.setSaklarNo(0,"Lampu Teras Rumah");
+	lampuRumah.setSaklarNo(1,"Lampu Ruang Tamu");
+	lampuRumah.setSaklarNo(2,"Lampu Kamar Tidur");
+	lampuRumah.setSaklarNo(3,"Lampu Dapur");
 
 	cout << lampuRumah.getSaklarNo(0)<<endl;
 	cout << lampuRumah.getSaklarNo(1)<<endl;
